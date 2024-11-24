@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/cadastro.css">
+
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="/index.html" class="textoheader">Main</a></li>
+                <li><a href="galeria.html" class="textoheader">Galeria</a></li>
+                <li><a href="cadastro.html"d class="textoheader">Cadastro</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="dark">
+        <button id="aumenta-font">Aumentar Fonte</button>
+        <button onclick="toggleDarkMode()">Dark Mode</button>
+        <button id="diminui-font">Diminuir Fonte</button>
+    </div>
+    
+    <main>
+
+        <div class="txt-animado">
+            <p id="cadastroAnimado"></p>
+        </div>
+
+        
+    </main>
+
+    <div class="container">
+
+        <div class="form">
+
+            <h2 class="titulo">Cadastre-se</h2>
+
+            <form action="" method="get">
+
+                <input type="text" name="nome"  placeholder="Digite seu nome...">
+                <input type="email" name="email"  placeholder="Digite seu e-mail...">
+                <input type="password" name="senha"  placeholder="Digite sua senha...">
+                <input type="password" name="confirmarSenha"  placeholder="Confirme sua senha...">
+                
+                <button type="submit">Cadastre-se</button>
+
+            </form>
+        </div>
+    </div>
+
+    <div class="container">
+
+        <div class="form">
+
+            <h2 class="titulo">Feedback</h2>
+
+            <form action="" method="get">
+
+                <input type="email" name="email"  placeholder="Digite seu e-mail...">
+                <input type="password" name="senha"  placeholder="Digite sua senha...">
+                <input type="textarea" name="opniao"  placeholder="O que podemos melhorar...">
+                
+                <button type="submit">Enviar</button>
+
+            </form>
+        </div>
+    </div>
+
+    
+    <footer>
+        <p>Trabalho para Web Coding 2º Período Uninassau</p>
+    </footer>
+
+    <script src="/js/cadastro.js"></script>
+    <script src="/js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,111 @@
+.txt-animado{
+    margin: 20px 10px 10px 10px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+/* pagina */
+
+body{
+    background-color: #ccc;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top:25px;
+    border-radius: 5px;
+}
+
+.form{
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 5px;
+    width: 700px;
+    height: 500px;
+    overflow: hidden;
+    border: thin solid  #48586f;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.form .titulo{
+    text-align: center;
+    padding: 24px 32px;
+    font-size: 24px;
+    background-color: #48586f;
+    color: #fff;
+
+}
+
+.form form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 32px;
+}
+
+.form input{
+    width: calc(50% - 8px);
+    height: 48px;
+    border-radius: 5px;
+    border: thin solid #999;
+    padding-left: 16px;
+    margin-bottom: 16px;
+    margin: 8px;
+}
+
+
+.form button{
+    margin: 20px;
+    border: none;
+    outline: none;
+    width: 180px;
+    height: 48px;
+    border-radius: 5px;
+    background-color: #48586f;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.form button:hover{
+    background-color: #283d3e;
+}
+
+.form textarea{
+    width: 100%;
+    height: 180px;
+    padding: 16px;
+}
+
+/* dark mode */
+
+.dark-mode {
+    background-color: #333;
+    color: white;
+}
+
+.dark-mode header {
+    background-color: #444;
+}
+
+.dark-mode .form .titulo{
+    background-color: #1d1d1d;
+    color: #fff;
+}
+
+.dark-mode .form button{
+    background-color: #1d1d1d;
+}
+
+.dark-mode .form{
+    border: thin solid #1d1d1d;
+}

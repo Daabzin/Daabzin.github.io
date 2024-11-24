@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+/* geral */
+*{
+    font-family: "Montserrat", serif;
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 1.2;
+    transition: 0.5s;
+}
+/* header */
+header{
+    width: 100%;
+    height: 60px;
+    padding: 0px;
+    background-color: #48586f;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+header nav ul {
+    gap: 300px;
+    list-style: none;
+    display: flex;
+  }
+  
+
+a.textoheader{
+    color: #CCD0CF;
+    text-decoration: none;
+}
+
+a.textoheader:hover{
+    color: #ffffff;
+    text-shadow: 0px 0px 15px rgba(255, 255, 255, 0.8);
+}
+
+/* butao de dark mode */
+
+.dark{
+    margin: 20px 10px 10px 10px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 30px;
+    gap: 10px;
+}
+.dark button{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border-radius: 5px;
+    border: none;
+    height: 30px;
+    width: 200px;
+    border: thin solid #aaaaaa;
+}
+
+.dark button:hover{
+    background-color: #ccc;
+}
+
+.dark-mode .dark button:hover{
+    background-color: #1d1d1d;
+}
+
+.dark-mode .dark button{
+    background-color: #444;
+    color: white;
+}
+
+
+/* footer */
+
+footer{
+    margin-top: 20px;
+    width: 100%;
+    height: 60px;
+    padding: 0px;
+    background-color: #48586f;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.dark-mode footer{
+    background-color: #444;
+}

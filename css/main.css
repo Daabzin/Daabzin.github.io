@@ -1,0 +1,99 @@
+/* texto animado da pagina main */
+.txt-animado{
+    margin: 20px 10px 10px 10px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+body{
+    background-color:#ccc;
+}
+
+main{
+    height: calc(100vh-60px);
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.card{
+    border-radius: 5px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+    background-color:whitesmoke;
+    height: 300px;
+    width: 1000px;
+    display: flex;
+}
+.icon{
+    border-radius: 5px;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.8);
+    margin: 10px;
+    width: 280px;
+    height: 280px;
+    overflow: hidden;
+}
+.icon img{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* tamanho de cada imagem */
+
+.imagemA{
+    width: 280px;
+}
+
+.imagemB{
+    height: 280px;
+}
+
+
+.descricao{
+    font-size: 20px;
+    font-weight: 600px;
+    margin: 15px;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    color: #06141B;
+}
+.card:hover{
+    transform: scale(1.02);
+    box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.8);
+}
+
+/* dark mode */
+
+.dark-mode {
+    background-color: #333;
+    color: white;
+}
+
+.dark-mode header {
+    background-color: #444;
+}
+
+.dark-mode .card{
+    background-color: #1d1d1d;
+    color: white;
+}
+
+.dark-mode .descricao{
+    color: white;
+}
+
+.dark-mode .card:hover{
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.8);
+}
